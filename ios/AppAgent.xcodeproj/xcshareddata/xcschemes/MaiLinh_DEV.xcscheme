@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "1330"
+   version = "1.7">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <PreActions>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = "&#10;# X&#xf3;a file cache.&#10;rm -rf /tmp/envfile&#10;&#10;# Xo&#xe1; tr&#x1eaf;ng file env&#10;:&gt; ${SRCROOT}/../.env&#10;&#10;# Xo&#xe1; tr&#x1eaf;ng file config&#10;:&gt; ${SRCROOT}/../src/config/System.js &#10;&#10;# Xo&#xe1; tr&#x1eaf;ng file GoogleService&#10;:&gt; ${SRCROOT}/../ios/GoogleService-Info.plist&#10;&#10;# Xo&#xe1; th&#x1b0; m&#x1ee5;c &#x1ea3;nh private&#10;rm -rf ${SRCROOT}/../src/config/images/private/ &#10;&#10;# Chuy&#x1ec3;n v&#x1ec1; &#x111;&#xfa;ng file ENV.&#10;cp -r ${SRCROOT}/../src/app-mailinh/env/.env.mailinh.dev ${SRCROOT}/../.env&#10;&#10;# Chuy&#x1ec3;n file c&#x1ea5;u h&#xec;nh.&#10;cp -r ${SRCROOT}/../src/app-mailinh/config/mailinh.js ${SRCROOT}/../src/config/System.js&#10;&#10;# Chuy&#x1ec3;n v&#x1ec1; &#x111;&#xfa;ng file GoogleService&#10;cp -r ${SRCROOT}/../src/app-mailinh/google-services/ios/GoogleService-Info.plist ${SRCROOT}/../ios/GoogleService-Info.plist&#10;&#10;# Chuy&#x1ec3;n th&#x1b0; m&#x1ee5;c &#x1ea3;nh.&#10;cp -r ${SRCROOT}/../src/app-mailinh/images/ ${SRCROOT}/../src/config/images/&#10;&#10;# X&#xe9;t file ENV.&#10;echo &quot;.env&quot; &gt; /tmp/envfile&#10;${SRCROOT}/../node_modules/react-native-config/ios/ReactNativeConfig/BuildXCConfig.rb &quot;${SRCROOT}/..&quot; &quot;${SRCROOT}/tmp.xcconfig&quot;&#10;">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "0473D34926C122C200498842"
+                     BuildableName = "MaiLinh.app"
+                     BlueprintName = "MaiLinh"
+                     ReferencedContainer = "container:AppAgent.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+      </PreActions>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0473D34926C122C200498842"
+               BuildableName = "MaiLinh.app"
+               BlueprintName = "MaiLinh"
+               ReferencedContainer = "container:AppAgent.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <PreActions>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Run Script"
+               scriptText = "&#10;# X&#xf3;a file cache.&#10;rm -rf /tmp/envfile&#10;&#10;# Xo&#xe1; tr&#x1eaf;ng file env&#10;:&gt; ${SRCROOT}/../.env&#10;&#10;# Xo&#xe1; tr&#x1eaf;ng file config&#10;:&gt; ${SRCROOT}/../src/config/System.js &#10;&#10;# Xo&#xe1; tr&#x1eaf;ng file GoogleService&#10;:&gt; ${SRCROOT}/../ios/GoogleService-Info.plist&#10;&#10;# Xo&#xe1; th&#x1b0; m&#x1ee5;c &#x1ea3;nh private&#10;rm -rf ${SRCROOT}/../src/config/images/private/ &#10;&#10;# Chuy&#x1ec3;n v&#x1ec1; &#x111;&#xfa;ng file ENV.&#10;cp -r ${SRCROOT}/../src/app-mailinh/env/.env.mailinh.dev ${SRCROOT}/../.env&#10;&#10;# Chuy&#x1ec3;n file c&#x1ea5;u h&#xec;nh.&#10;cp -r ${SRCROOT}/../src/app-mailinh/config/mailinh.js ${SRCROOT}/../src/config/System.js&#10;&#10;# Chuy&#x1ec3;n v&#x1ec1; &#x111;&#xfa;ng file GoogleService&#10;cp -r ${SRCROOT}/../src/app-mailinh/google-services/ios/GoogleService-Info.plist ${SRCROOT}/../ios/GoogleService-Info.plist&#10;&#10;# Chuy&#x1ec3;n th&#x1b0; m&#x1ee5;c &#x1ea3;nh.&#10;cp -r ${SRCROOT}/../src/app-mailinh/images/ ${SRCROOT}/../src/config/images/&#10;&#10;# X&#xe9;t file ENV.&#10;echo &quot;.env&quot; &gt; /tmp/envfile&#10;${SRCROOT}/../node_modules/react-native-config/ios/ReactNativeConfig/BuildXCConfig.rb &quot;${SRCROOT}/..&quot; &quot;${SRCROOT}/tmp.xcconfig&quot;&#10;">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "0473D34926C122C200498842"
+                     BuildableName = "MaiLinh.app"
+                     BlueprintName = "MaiLinh"
+                     ReferencedContainer = "container:AppAgent.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+      </PreActions>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0473D34926C122C200498842"
+            BuildableName = "MaiLinh.app"
+            BlueprintName = "MaiLinh"
+            ReferencedContainer = "container:AppAgent.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "0473D34926C122C200498842"
+            BuildableName = "MaiLinh.app"
+            BlueprintName = "MaiLinh"
+            ReferencedContainer = "container:AppAgent.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

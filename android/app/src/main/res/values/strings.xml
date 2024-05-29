@@ -1,0 +1,3 @@
+<resources>
+    <string name="build_config_package">@string/BUILD_CONFIG_PACKAGE</string>
+</resources>

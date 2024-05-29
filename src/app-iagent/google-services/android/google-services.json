@@ -1,0 +1,70 @@
+{
+  "project_info": {
+    "project_number": "180622974239",
+    "project_id": "inso-agent",
+    "storage_bucket": "inso-agent.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180622974239:android:78d23b16adcf1bf4aae42a",
+        "android_client_info": {
+          "package_name": "com.inso.iagent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180622974239-44e727dmi71160da246mq2csusmq8m97.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inso.iagent",
+            "certificate_hash": "b0134e120c01e7039fc0819024b04b2f480ac6bc"
+          }
+        },
+        {
+          "client_id": "180622974239-hlj6d7og5e92ebsrgcecdnhnur1hn9n2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inso.iagent",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "180622974239-u6sekn7cm3tkfgl3p5f1tkturlbvfvn1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inso.iagent",
+            "certificate_hash": "0d322e29c835b03916fdb2d51b6c857b21b8f9c1"
+          }
+        },
+        {
+          "client_id": "180622974239-f0n0so6pmgands66cu5vlh0rid2iepal.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkZBI6ncaWbbKcFZHStGw-EdgkuCAOTQ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "180622974239-f0n0so6pmgands66cu5vlh0rid2iepal.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "180622974239-bmv5t70vp54uqmgue2adm73ijk00rbmt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.inso.iagent"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

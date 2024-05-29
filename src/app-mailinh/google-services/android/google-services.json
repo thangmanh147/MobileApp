@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "322166294417",
+    "project_id": "mai-linh-insurance-mobile-app",
+    "storage_bucket": "mai-linh-insurance-mobile-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322166294417:android:0596b9b988f4857f163c30",
+        "android_client_info": {
+          "package_name": "com.inso.iagent.mailinh.insurance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "322166294417-74eqotqsedpi1c1b67fllgd30qartgk0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpvdCE2naSTbVhYuvMXm3fGReARhHir4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "322166294417-74eqotqsedpi1c1b67fllgd30qartgk0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "322166294417-lvd7s67tf4rcmpm88goe32hcrj1ms42v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mailinh.mailinhinsurance"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

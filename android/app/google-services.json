@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "180622974239",
+    "project_id": "inso-agent",
+    "storage_bucket": "inso-agent.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180622974239:android:78d23b16adcf1bf4aae42a",
+        "android_client_info": {
+          "package_name": "com.epti.insurance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180622974239-f0n0so6pmgands66cu5vlh0rid2iepal.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkZBI6ncaWbbKcFZHStGw-EdgkuCAOTQ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "180622974239-f0n0so6pmgands66cu5vlh0rid2iepal.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
